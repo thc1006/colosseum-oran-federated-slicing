@@ -3,12 +3,12 @@
 > It uses the **ColO-RAN dataset** released by WINES Lab and provides GPU-ready diagnostics plus optional Differential Privacy.
 
 ## Why this project?
+The notebook splits **`coloran_processed_features.parquet`** into seven base-station clients and, using TensorFlow Federated’s FedAvg, trains a four-layer fully connected network to regress **`allocation_efficiency`**. The resulting model and its scalers are saved as a `.keras` file alongside a `.pkl`, so they can be embedded directly into a gNB or xApp for sub-20 ms-cycle inference—driving dynamic slice PRB reallocation, scheduler switching, and cross-cell load balancing.
+
 * **Real RAN traces** – built on the Colosseum/ORAN “ColO-RAN” dataset 【[Dataset link](https://github.com/wineslab/colosseum-oran-coloran-dataset)】  
 * **One-click Colab** – no local CUDA setup needed  
 * **Full reproducibility** – random seeds fixed, artifacts serialized  
 * **Differential Privacy ready** – clipping norm, noise multiplier, and TFF DP aggregators exposed as flags  
-
-The notebook splits **`coloran_processed_features.parquet`** into seven base-station clients and, using TensorFlow Federated’s FedAvg, trains a four-layer fully connected network to regress **`allocation_efficiency`**. The resulting model and its scalers are saved as a `.keras` file alongside a `.pkl`, so they can be embedded directly into a gNB or xApp for sub-20 ms-cycle inference—driving dynamic slice PRB reallocation, scheduler switching, and cross-cell load balancing.
 
 ## Quick start
 1. Open the notebook in Colab  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1l_sfn29npZRbG6vuYu2amyAkt1vie4Jk)
