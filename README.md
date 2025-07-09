@@ -1,4 +1,27 @@
 # Colosseum-ORAN Federated Slicing: Offline FL for 5G/6G RAN Resource Allocation
+
+<p align="center">
+  <!-- Latest release -->
+  <a href="https://github.com/thc1006/colosseum-oran-federated-slicing/releases">
+    <img alt="GitHub release" src="https://img.shields.io/github/v/release/thc1006/colosseum-oran-federated-slicing?style=for-the-badge">
+  </a>
+  <!-- Release date -->
+  <a href="https://github.com/thc1006/colosseum-oran-federated-slicing/releases">
+    <img alt="Release date" src="https://img.shields.io/github/release-date/thc1006/colosseum-oran-federated-slicing?style=for-the-badge">
+  <!-- Licence -->
+  <a href="https://github.com/thc1006/colosseum-oran-federated-slicing/blob/main/LICENSE">
+    <img alt="Licence" src="https://img.shields.io/github/license/thc1006/colosseum-oran-federated-slicing?style=for-the-badge">
+  </a>
+  <!-- Zenodo DOI (replace with real DOI once minted) -->
+  <a href="https://doi.org/10.5281/zenodo.15849833">
+    <img alt="DOI" src="https://img.shields.io/badge/DOI-10.5281%2Fzenodo.XXXXXXX-blue?logo=zenodo&style=for-the-badge">
+  </a>
+  <!-- Open in Colab -->
+  <a href="https://colab.research.google.com/drive/1l_sfn29npZRbG6vuYu2amyAkt1vie4Jk">
+    <img alt="Open in Colab" src="https://colab.research.google.com/assets/colab-badge.svg">
+  </a>
+</p>
+
 > **Colosseum-ORAN Federated Slicing** is an end-to-end Google Colab notebook that trains a federated deep learning model to optimize PRB re-allocation, scheduler switching, and load balancing across RAN slices.  
 > It uses the **ColO-RAN dataset** released by WINES Lab and provides GPU-ready diagnostics plus optional Differential Privacy.
 
