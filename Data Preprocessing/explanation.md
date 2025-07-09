@@ -1,4 +1,4 @@
-Below is a structured, code-aligned walkthrough of the notebook **《colosseum-oran-federated-slicing.ipynb》**.
+Below is a structured, code-aligned walkthrough of the notebook **《[colosseum-oran-federated-slicing.ipynb](https://github.com/thc1006/colosseum-oran-federated-slicing/blob/main/Data%20Preprocessing/data_preprocessing.ipynb)》**.
 For clarity I reference the notebook’s cell order (<#>) and key line numbers, then summarise the preprocessing logic and the exact content of the final artefacts.
 
 > U should run with Goolge colab T4(large RAM), L4 or A100 GPU, Because only they have enough RAM.
