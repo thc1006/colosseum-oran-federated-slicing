@@ -14,7 +14,7 @@
   </a>
   <!-- Zenodo DOI (replace with real DOI once minted) -->
   <a href="https://doi.org/10.5281/zenodo.15849833">
-    <img alt="DOI" src="https://img.shields.io/badge/DOI-10.5281%2Fzenodo.XXXXXXX-blue?logo=zenodo&style=for-the-badge">
+    <img alt="DOI" src="https://img.shields.io/badge/DOI-10.5281%2Fzenodo.15849833-blue?logo=zenodo&style=for-the-badge">
 </p>
 
 
