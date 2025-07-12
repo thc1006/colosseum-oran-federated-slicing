@@ -30,7 +30,10 @@ The notebook splits **`coloran_processed_features.parquet`** into seven base-sta
 * **Differential Privacy ready** – clipping norm, noise multiplier, and TFF DP aggregators exposed as flags  
 
 ## Quick start
-1. Open the notebook in Colab  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1l_sfn29npZRbG6vuYu2amyAkt1vie4Jk)
+1. Open the notebook in Colab
+  * **DP-Enabled(Manual implementation) FL for O-RAN Slicing v1.0.2**：[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1l_sfn29npZRbG6vuYu2amyAkt1vie4Jk)
+  * **Fixing TFF API Compatibility Issues v1.0.3**：[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1K9-dCreaXi6Y6ZwHnXLIn6faK_O6qKVR)
+  * **Robust DP Implementation & Final Optimizations v1.0.4**：[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/14fACJjqyXi9PgG0icLTjNIH9B0-SjBEw)
 2. [Download](https://github.com/thc1006/coloran-dynamic-slice-optimizer/blob/main/coloran_processed_features.parquet) `coloran_processed_features.parquet` (≈ 400 MB) and upload it to Colab **files**(temp) or mount GDrive.  
 3. Press **▶ Run all**. Training logs and plots appear inline; a Keras model and pickle artifacts are saved.
 
