@@ -1,0 +1,13 @@
+tensorflow==2.16.1
+tensorflow-federated
+tensorflow-privacy
+dp-accounting
+pandas
+scikit-learn
+numpy
+matplotlib
+seaborn
+tqdm
+pyarrow
+psutil
+PyYAML
